@@ -1183,4 +1183,3 @@ class ABDTransformer(nn.Module):
             completed_hypotheses[i].sort(key=lambda hyp: hyp.score, reverse=True)
         # print('completed_hypotheses', completed_hypotheses)
         return r2l_completed_hypotheses, completed_hypotheses
-#
