@@ -129,3 +129,4 @@ def createTree(dataSet, labels):
 if __name__ == '__main__':
     dataset, labels = createDataSet1()
     print(createTree(dataset, labels))  # 输出决策树模型结果
+
