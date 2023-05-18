@@ -116,3 +116,20 @@ x = np.arange(-4,4,0.1)
 y = -2.8202 * x + 6.344
 plt.plot(x,y)
 plt.show()
+
+
+a = torch.tensor([1,1,2])
+b = torch.tensor([0,1,1])
+c = torch.dot(a,b)
+print(c)
+
+e = torch.tensor([
+    [1,1,1],
+    [1,2,3]
+])
+
+f =torch.tensor(
+    [[0,0,1],
+    [1,0,0]]
+)
+print(torch.matmul(e,f.T))
