@@ -1,6 +1,4 @@
 #三层神经网络
-
-
 import math
 #sigmoid函数，参数deriv为True时，表示求导数，否则将一个实数转化为0到1间的一个数，也可以叫概率。
 import numpy as np
